@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Кроссы — и точка.</title>
+</head>
+
+<body>
+    <div>Тут будет что-нибудь про кроссовки</div>
+</body>
+
+</html>
+font-size: 50px;
+color:  red;
+background-color: lavender;
+.first font-size: 32px;
+color: white;
+background-color: lavender;
+.first {
+    font-size: 32px;
+    color: white;
+    background-color: lavender;
+}
+<body>
+    <div class="first">Тут будет что-нибудь про кроссовки</div>
+</body>
+<link rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Кроссы — и точка.</title>
+    <link rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <div class="trash-images">
+<img src="https://code.s3.yandex.net/kids-web/old-computer.png"/> class="old-computer"/>
+<img src="https://code.s3.yandex.net/kids-web/very-old-comp.png" /> class="very-old-comp"/>
+    <img src="https://code.s3.yandex.net/kids-web/old-computer-2.png"/> class="old-computer"/>
+    <img src="https://code.s3.yandex.net/kids-web/old-computer-3.png"/> class="old-computer"/>
+    <img src="https://code.s3.yandex.net/kids-web/mouse.png"/> class="mouse"/>
+    <img src="https://code.s3.yandex.net/kids-web/mouse.png"/> class="mouse"/>
+    <img src="https://code.s3.yandex.net/kids-web/computer-mag.png"/> class="computer-mag"/>
+    <img src="https://code.s3.yandex.net/kids-web/windows98-mag.png"/> class="windows98"/>
+    <img src="https://code.s3.yandex.net/kids-web/hands-keyboard.png"/> class="keyboard"/>
+    <img src="https://code.s3.yandex.net/kids-web/pc-for-dummies.png"/> class="pc-for-dummies"/>
+    <img src="https://code.s3.yandex.net/kids-web/pc-for-dummies.png"/> class="pc-for-dummies"/>
+    <img src="https://code.s3.yandex.net/kids-web/pc-for-dummies.png"/> class="pc-for-dumm
+    body {
+        background-color: #F1F1F1;
+    }
+    
+    .card {
+        border: 1px solid #898989;
+    }
+    
+    .first {
+        display: flex;
+        justify-content: center;
+        width: 100%;    
+    }
+    
+    p {
+        width: 100%;
+    }
+    a {
+        display: block; 
+      }
+      body {
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      селектор { 
+        font-family: 'Шрифт 1', 'Шрифт 2', Резервный шрифт, семейство шрифтов. 
+    }
+    body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        font-family: 'Times New Roman', serif;
+      }
+      p {
+        font: italic bold 16px/1.5 'Times New Roman', serif;
+          color: black;
+      }
+      .header {
+        color: #121723;
+    }
+    .header {
+        color: rgb(0, 76, 252);
+      background-color: #0800ff;
+    }
+    background: linear-gradient(155.88deg, #FFED00 0%, #FF3DFE 51.89%, #5253FF 100%);
+    background: linear-gradient(155.88deg, crimson 0%, #FF3DFE 51.89%, #5253FF 100%);
+    .element {
+        background-image: linear-gradient(#2E9AFF, #F498AD);
+      }
+      .element {
+        background-image: linear-gradient(#F498AD 25%, #2E9AFF 25% 50%, #FFD829 75%);
+      }
+      .element-1 {
+        background-image: linear-gradient(-30deg, #2E9AFF, #F498AD);
+      }
+      
+      .element-2 {
+        background-image: linear-gradient(0.25turn, #2E9AFF, #FFD829);
+      }
+      @media screen and (max-width: 768px) {
+        .main__title {
+            font-size: 36px;
+        }
+    
+        .cards { 
+            /* Класс контейнера, в котором хранятся синий блок и контейнер 
+            с голубыми блоками  */
+            flex-direction: column-reverse;
+        }
+        
+        .cards__nav {
+            /* 
+                Значение unset снимает ограничение по ширине для этого блока. 
+                Если unset используется в правилах, где свойство наследуется 
+                (например, color), то оно срабатывает аналогично значению inherit. 
+                Если наследования нет, то действует аналогично значению initial 
+            */
+            max-width: unset;
+        }
+    }
+    @font-face {
+      font-family: "Anonymous Pro";
+      src: url(https://sandbox-teens.practicum-team.ru/tasks/03-more-html-and-css-sprint/01-flex-sandboxes/06-header-and-footer/sandbox-01/pre/styles/fonts/AnonymousPro-Regular.woff) format('woff'), 
+      url(https://sandbox-teens.practicum-team.ru/tasks/03-more-html-and-css-sprint/01-flex-sandboxes/06-header-and-footer/sandbox-01/pre/styles/fonts/AnonymousPro-Regular.ttf) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      display: swap;
+  }
+  
+  @font-face {
+      font-family: "Anonymous Pro";
+      src: url(https://sandbox-teens.practicum-team.ru/tasks/03-more-html-and-css-sprint/01-flex-sandboxes/06-header-and-footer/sandbox-01/pre/styles/fonts/AnonymousPro-Bold.woff) format('woff'), 
+      url(https://sandbox-teens.practicum-team.ru/tasks/03-more-html-and-css-sprint/01-flex-sandboxes/06-header-and-footer/sandbox-01/pre/styles/fonts/AnonymousPro-Bold.ttf) format('truetype');
+      font-weight: 700;
+      font-style: normal;
+      display: swap;
+  }
+  
+  body {
+      margin: 0;
+  }
+  
+  .main {
+      display: block;
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(156deg, #FFED00 0%, #FF3DFE 51.89%, #5253FF 100%);
+      flex: 1 0 auto;
+      color: #121723;
+  }
+  
+  .content {
+      margin: 68px auto 26px;
+        display: block;
+      width: 90%;
+      max-width: 1290px;
+  }
+  
+  .content__title {
+      color: #121723;
+      font-family: "Anonymous Pro", sans-serif;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%;
+      margin: 0;
+  }
+  
+  .content__cards {
+        display: block;
+      width: 100%;
+      margin: 26px 0 0;
+  }
+  
+  .card {
+        display: inline-block;
+      width: 100%;
+      max-width: 300px;
+      margin: 4px;
+  }
+  
+  .card__image {
+      width: 100%;
+      height: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
+  }
+  
+  .card__info {
+      display: block;
+      margin: 0;
+      border-radius: 12px;
+      background: white;
+      padding: 24px 12px;
+      min-height: 72px;
+  }
+  
+  .card__info_yellow {
+      background: #FAFF00;
+  }
+  
+  .card__info_green {
+      background: #24FF00;
+  }
+  
+  .card__info_pink {
+      background: #FFB4EA;
+  }
+  
+  .card__info_blue {
+      background: #03E7FC;
+  }
+  
+  .card__link {
+      width: 85%;
+      color: #121723;
+      text-decoration: none;
+  }
+  
+  .card__text {
+      font-family: "Anonymous Pro", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin: 0;
+  }
+  
+  .card__text_title {
+      font-size: 26px;
+  }
+  
+  .card__text_author {
+      font-size: 20px;
+      font-weight: 400;
+  }
+  .content__cards {
+    display: flex;
+    width: 100%;
+    margin: 26px 0 0;
+}
+.card {
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+        min-height: 72px;
+    max-width: 300px;
+}
+.content__cards {
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+margin: 26px 0 0;
+}
+.content__cards {
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+margin: 26px 0 0;
+}
+
+@media (max-width: 768px) {
+.content__cards {
+    flex-direction: column;
+}
+}
+.content__cards {
+  width: 100%;
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 22px;
+  row-gap: 30px;
+  margin: 26px 0 0;
+}
